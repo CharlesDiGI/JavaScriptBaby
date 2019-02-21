@@ -9,3 +9,5 @@ Je te laisse découvrir tout ça...
 
 ...et si t'as la flemme (je sais que t'as la flemme), tu peux checker tout ça directment là:
 **https://charlesdigi.github.io/JavaScriptBaby/**
+
+`mais n'oublie pas d'ouvrir une console dans ton navigateur, sinon ça sert à rien...`
