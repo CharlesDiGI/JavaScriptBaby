@@ -1,3 +1,5 @@
+function script_2() {
+
 function facto(inputNumber) {
     let fact = 1;
 
@@ -16,3 +18,5 @@ let userChoice = prompt("Entre un nombre et obtiens sa factorielle en un instant
 // }
 
 console.log(facto(userChoice));
+
+}

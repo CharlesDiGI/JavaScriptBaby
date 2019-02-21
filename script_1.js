@@ -1,3 +1,7 @@
-let prenom = prompt("ton prénom steuplé")
+function script_1() {
 
-console.log(`Bonjour ${prenom}`)
+    let prenom = prompt("ton prénom steuplé")
+
+    console.log(`Bonjour ${prenom}`)
+
+}
