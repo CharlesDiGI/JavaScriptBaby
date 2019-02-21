@@ -1,22 +1,26 @@
 function script_2() {
 
-function facto(inputNumber) {
-    let fact = 1;
-
-    for (let i = 1; i <= inputNumber; i++) {
-        fact = fact * i;
-
+    function facto(n) {
+        if (n < 0) {
+            alert("Merci de renseigner un entier POSITIF");
+            return ("essaie encore");
+        }
+        else if (n == 0) {
+            return 1;
+        }
+        else {
+            let fact = 1;
+            for (let i = 1; i <= n; i++) {
+                fact = fact * i;
+            }
+            return fact;
+        }
     }
-    return fact
-}
 
-let userChoice = prompt("Entre un nombre et obtiens sa factorielle en un instant")
 
-// while (parseInt(userChoice) <= 0) {
-//     let userChoice = prompt("il faut un chiffre supérieur à 0 steuplééé")
-//     console.log(facto(typeof userChoice));
-// }
+    let userChoice = prompt("Entre un nombre entier positif et obtiens sa factorielle en un instant (véridique)")
 
-console.log(facto(userChoice));
+
+    console.log(facto(userChoice));
 
 }

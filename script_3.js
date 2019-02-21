@@ -1,5 +1,5 @@
 function script_3() {
-    let userChoice = prompt("Combien d'étages de pyramide veux-tu Kheops ?")
+    let userChoice = prompt("Combien d'étages de pyramide veux-tu Kheops ?");
     pyramide(userChoice);
 
     function pyramide(n) {
